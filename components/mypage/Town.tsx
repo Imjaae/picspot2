@@ -198,7 +198,7 @@ const MoreBtn = styled.button`
   margin-top: 20px;
   border: none;
   background-color: white;
-  margin-right: 25px;
+  margin-right: 55px;
   :hover {
     font-size: 15px;
     transition: all 0.3s;
@@ -209,6 +209,8 @@ const MoreBtnContents = styled.div`
   display: flex;
   align-items: center;
   gap: 4px;
+  margin-right: 55px;
+  margin-bottom: 30px;
 `;
 
 const ArrowImg = styled.img`
