@@ -93,7 +93,7 @@ const TownWrap = styled.div`
     transform: scale(1.01);
   }
   @media ${(props) => props.theme.mobile} {
-    width: 80%;
+    width: 90%;
     margin-bottom: 10px;
     margin: auto;
   }
