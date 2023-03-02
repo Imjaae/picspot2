@@ -4,7 +4,6 @@ import Masonry, { ResponsiveMasonry } from 'react-responsive-masonry';
 import { useState } from 'react';
 import { uuidv4 } from '@firebase/util';
 import Link from 'next/link';
-import { useMediaQuery } from 'react-responsive';
 
 const Town = ({ value, myPostData }: { value: string; myPostData: any }) => {
   const [more, setMore] = useState(true);
@@ -148,8 +147,9 @@ const MoreDiv = styled.div`
     width: 90%;
     overflow: auto;
     margin: auto;
-    left: 50%;
-    height: 110%;
+    left: 50%.5%;
+    height: 100%;
+    margin-top: 30px;
   }
 `;
 const MyPostImg = styled.img`

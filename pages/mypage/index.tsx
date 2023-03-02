@@ -10,7 +10,6 @@ import MyPostList from '@/components/mypage/MyPostList';
 import { useState } from 'react';
 import DataLoading from '@/components/common/DataLoading';
 import DataError from '@/components/common/DataError';
-import { useMediaQuery } from 'react-responsive';
 
 export default function Mypage() {
   const [onSpot, setOnSpot] = useState(true);
@@ -43,12 +42,12 @@ export default function Mypage() {
   return (
     <>
       <Seo title="My" />
-      {/* <Header selectCity={undefined} onChangeSelectCity={undefined} />
+      <Header selectCity={undefined} onChangeSelectCity={undefined} />
       <MyContainer>
         <MyProfileContainer>
           <Profile followingCount={followingCount} followCount={followCount} />
         </MyProfileContainer>
-      </MyContainer> */}
+      </MyContainer>
       {/* 내 게시물과 저장한 게시물입니다  */}
       <AllMyPostList>
         <CategoryBtn>

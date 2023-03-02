@@ -1,7 +1,6 @@
 import { getMyPost } from '@/api';
 import { authService } from '@/firebase';
 import { useQuery } from 'react-query';
-import { useMediaQuery } from 'react-responsive';
 import Masonry, { ResponsiveMasonry } from 'react-responsive-masonry';
 import styled from 'styled-components';
 import { v4 as uuidv4 } from 'uuid';
