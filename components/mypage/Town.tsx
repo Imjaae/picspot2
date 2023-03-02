@@ -149,7 +149,7 @@ const MoreDiv = styled.div`
     overflow: auto;
     margin: auto;
     left: 50%;
-    height: 100%;
+    height: 110%;
   }
 `;
 const MyPostImg = styled.img`
@@ -186,7 +186,7 @@ const MoreMyPostTownTitle = styled.div`
   letter-spacing: -0.015em;
 `;
 const MoreBtn = styled.button`
-  width: 57px;
+  width: 65px;
   height: 22px;
   font-weight: 400;
   font-size: 14px;
@@ -198,7 +198,7 @@ const MoreBtn = styled.button`
   margin-top: 20px;
   border: none;
   background-color: white;
-
+  /* margin-right: 2px; */
   :hover {
     font-size: 15px;
     transition: all 0.3s;
