@@ -211,6 +211,9 @@ const MoreBtnContents = styled.div`
   gap: 4px;
 
   margin-bottom: 30px;
+  @media ${(props) => props.theme.mobile} {
+    margin-bottom: 40px;
+  }
 `;
 
 const ArrowImg = styled.img`
