@@ -28,13 +28,6 @@ const MyPostList = () => {
     }
   );
 
-  const isPc = useMediaQuery({
-    query: '(min-width: 425px)',
-  });
-  const isMobile = useMediaQuery({
-    query: '(max-width: 425px)',
-  });
-
   return (
     <GridBox>
       <ResponsiveMasonry columnsCountBreakPoints={{ 425: 1, 750: 2, 1200: 3 }}>

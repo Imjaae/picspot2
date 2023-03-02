@@ -19,13 +19,6 @@ const Town = ({ value, myPostData }: { value: string; myPostData: any }) => {
     setMore(!more);
   };
 
-  const isPc = useMediaQuery({
-    query: '(min-width: 425px)',
-  });
-  const isMobile = useMediaQuery({
-    query: '(max-width: 425px)',
-  });
-
   return (
     <div>
       {more ? (
@@ -100,7 +93,7 @@ const TownWrap = styled.div`
     transform: scale(1.01);
   }
   @media ${(props) => props.theme.mobile} {
-    width: 90%;
+    width: 80%;
     margin-bottom: 10px;
     margin: auto;
   }
@@ -140,6 +133,7 @@ const FatherDiv = styled.div`
     height: 1000px;
   }
 `;
+
 const MoreDiv = styled.div`
   background-color: white;
   z-index: 100;
